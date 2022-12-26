@@ -52,9 +52,9 @@ b
 
 
 Prerequisits:
-Jetson Nano 4GB.
 
-Jetpack: Qengineering Ubuntu 20.04
+Jetson Nano 4GB.
+Jetpack: Qengineering Ubuntu 20.04.
 
 
 References:
