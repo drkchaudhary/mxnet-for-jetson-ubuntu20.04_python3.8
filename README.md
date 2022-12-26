@@ -23,21 +23,21 @@ sudo pip3 install --upgrade \
 
 4. Test the installation
 $ python3
->>> import mxnet
->>> mxnet.__version__
+import mxnet
+mxnet.__version__
 
 This shoould show: '1.8.0'
 
 
 5. Test gpu:
->>>import mxnet as mx
->>>a = mx.nd.ones((2, 3), mx.gpu())
->>>b = a * 2 + 1
->>>b.asnumpy()
+import mxnet as mx
+a = mx.nd.ones((2, 3), mx.gpu())
+b = a * 2 + 1
+b.asnumpy()
 
 array([[3., 3., 3.],
        [3., 3., 3.]], dtype=float32)
->>>b
+b
 
 [[3. 3. 3.]
  [3. 3. 3.]]
