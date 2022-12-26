@@ -2,10 +2,15 @@
 
 Follow the following steps to install the mxnet on jetson nano with ubuntu20.04 that comes with Python 3.8
 
-1. Download the file:
+1. Download the file from lin below:
 https://drive.google.com/file/d/1ctjtpgptV3z4lA-akxX8Uturh4K8mqUl/view?usp=share_link
 
-2. Install the following dependencies
+2. Download mxnet-1.8.0 source files from link below:
+https://github.com/apache/mxnet/releases/tag/1.8.0
+
+3. Merge above two downloads
+
+4. Install the following dependencies
 sudo apt-get update
 sudo apt-get install -y \
                         build-essential \
@@ -20,10 +25,10 @@ sudo pip3 install --upgrade \
                         setuptools \
                         numpy
                         
-3. $ cd mxnet/python
+5. $ cd mxnet/python
    $ sudo pip3 install -e .
 
-4. Test the installation
+6. Test the installation
 $ python3
 import mxnet
 mxnet.__version__
@@ -31,7 +36,7 @@ mxnet.__version__
 This shoould show: '1.8.0'
 
 
-5. Test gpu:
+7. Test gpu:
 import mxnet as mx
 a = mx.nd.ones((2, 3), mx.gpu())
 b = a * 2 + 1
