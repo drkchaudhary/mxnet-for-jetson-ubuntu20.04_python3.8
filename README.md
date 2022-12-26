@@ -51,6 +51,10 @@ b
 <NDArray 2x3 @gpu(0)>
 
 
+Prerequisits:
+Jetson Nano 4GB
+Jetpack: Qengineering Ubuntu 20.04
+
 
 References:
 [1]. https://mxnet.apache.org/get_started/jetson_setup
