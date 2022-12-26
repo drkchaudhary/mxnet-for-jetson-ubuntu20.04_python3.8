@@ -52,3 +52,6 @@ b
 
 
 
+References:
+[1]. https://mxnet.apache.org/get_started/jetson_setup
+
